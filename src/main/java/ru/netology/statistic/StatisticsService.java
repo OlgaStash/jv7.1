@@ -48,6 +48,7 @@ public class StatisticsService {
         }
         return count;
     }
+
     public int countBelowAver(long[] incomes) {
         int count = 0;
         for (long income : incomes) {

@@ -42,6 +42,7 @@ class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findSum() {
         StatisticsService service = new StatisticsService();
@@ -53,6 +54,7 @@ class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void shouldFindCountAboveAver() {
         StatisticsService service = new StatisticsService();
@@ -76,7 +78,6 @@ class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
-
 
 
 }
